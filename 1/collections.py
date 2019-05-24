@@ -22,3 +22,22 @@ print(matrix[0][1])
 matrix[0][1] = 20
 print(matrix[0][1])
 print(matrix)
+
+# Dictionaries
+customer = {
+    "name": "John Smith",
+    "age": 30,
+    "is_verified": True
+}
+
+print(customer["name"])
+print(customer.get("birthday"))
+print(customer.get("birthday", "Say October 6 instead"))
+
+# add new key
+customer["gender"] = "Male"
+print(customer["gender"])
+
+# change a key
+customer["name"] = "Cyrus"
+print(customer["name"])
