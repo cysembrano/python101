@@ -41,3 +41,32 @@ print(customer["gender"])
 # change a key
 customer["name"] = "Cyrus"
 print(customer["name"])
+print()
+snumbers = [5, 6, 8, 9]
+snumbers.append(10)
+print(f'put 10 at the end {snumbers}')
+snumbers.insert(2, 7)
+print(f'put 7 in between: {snumbers}')
+snumbers.remove(5)
+print(f'remove 5: {snumbers}')
+snumbers.pop()
+print(f'10 was removed after pop: {snumbers}')
+index_6 = snumbers.index(6)
+print(f'q: where is 6? a: {index_6}')
+print(f'is 50 in numbers? {50 in snumbers}')
+snumbers.append(9)
+print(snumbers)
+print(f'how many number 9\'s? {snumbers.count(9)}')
+snumbers.append(4)
+print(snumbers)
+snumbers.sort()
+print(f'sorted snumbers {snumbers}')
+snumbers.reverse()
+print(f'reverse sorted snumbers {snumbers}')
+snumbers_2 = snumbers.copy()
+snumbers_2.append(10)
+print(snumbers)
+print(snumbers_2)
+
+
+
