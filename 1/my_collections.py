@@ -42,8 +42,7 @@ print(customer["gender"])
 customer["name"] = "Cyrus"
 print(customer["name"])
 print()
-snumbers = [5, 6, 8, 9]
-snumbers.append(10)
+snumbers = [5, 6, 8, 9, 10]
 print(f'put 10 at the end {snumbers}')
 snumbers.insert(2, 7)
 print(f'put 7 in between: {snumbers}')
