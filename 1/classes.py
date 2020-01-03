@@ -15,6 +15,7 @@ class Person:
     def __init__(self, name):
         self.name = name
 
+
     def talk(self):
         print(f"Hi, I am {self.name}")
 
@@ -29,7 +30,6 @@ point1.draw()
 point2 = Point(1, 2)
 point2.x = 1
 print(point2.x)
-
 
 person = Person("Cyrus")
 person.talk()
